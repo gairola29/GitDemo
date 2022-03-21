@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-03T13:52:51Z" name="Staging.com.cybex.TestCases.CybexHomePageTest" finished-at="2022-03-03T13:53:24Z" duration-ms="32432">
+    <groups>
+    </groups>
+    <test started-at="2022-03-03T13:52:51Z" name="Command line test" finished-at="2022-03-03T13:53:24Z" duration-ms="32432">
+      <class name="Staging.com.cybex.TestCases.CybexHomePageTest">
+        <test-method is-config="true" signature="config()[pri:0, instance:Staging.com.cybex.TestCases.CybexHomePageTest@7c729a55]" started-at="2022-03-03T19:22:51Z" name="config" finished-at="2022-03-03T19:22:53Z" duration-ms="1646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Staging.com.cybex.TestCases.CybexHomePageTest@7c729a55]" started-at="2022-03-03T19:22:53Z" name="setup" finished-at="2022-03-03T19:23:09Z" duration-ms="15707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Login_To_Application()[pri:1, instance:Staging.com.cybex.TestCases.CybexHomePageTest@7c729a55]" started-at="2022-03-03T19:23:09Z" name="Login_To_Application" finished-at="2022-03-03T19:23:22Z" duration-ms="13734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_To_Application -->
+        <test-method is-config="true" signature="TearDown(org.testng.ITestResult)[pri:0, instance:Staging.com.cybex.TestCases.CybexHomePageTest@7c729a55]" started-at="2022-03-03T19:23:22Z" name="TearDown" finished-at="2022-03-03T19:23:24Z" duration-ms="1333" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login_To_Application status=SUCCESS method=CybexHomePageTest.Login_To_Application()[pri:1, instance:Staging.com.cybex.TestCases.CybexHomePageTest@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="SendReport()[pri:0, instance:Staging.com.cybex.TestCases.CybexHomePageTest@7c729a55]" started-at="2022-03-03T19:23:24Z" name="SendReport" finished-at="2022-03-03T19:24:33Z" duration-ms="68996" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SendReport -->
+      </class> <!-- Staging.com.cybex.TestCases.CybexHomePageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Staging.com.cybex.TestCases.CybexHomePageTest -->
+</testng-results>

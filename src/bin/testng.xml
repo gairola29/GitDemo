@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PigeonLab Application Automation Test Suite">
+
+<listeners>
+		<listener class-name="Staging.com.ExtentReportListener.ExtentReportListener" />
+	</listeners>
+	
+	<listeners>
+		<listener class-name="staging.com.TestCaseAnalyzer.TransformerClass" />
+	</listeners>
+
+	<test name="PigeonLab App Test Cases on staging server">
+		<classes>
+			<class name="Staging.com.cybex.TestCases.CybexHomePageTest"></class>
+			
+			
+			
+			
+		</classes>
+	</test>
+</suite>
