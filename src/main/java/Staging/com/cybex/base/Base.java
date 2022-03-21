@@ -48,6 +48,14 @@ public class Base {
 	public Base()
 	{
 		
+		System.Out.Prtinln("This new line added ");
+
+		System.Out.Prtinln("This new line also added ");
+		
+		System.Out.Prtinln("This new line also added ");
+		
+			
+	
 		
 		
 		try {
