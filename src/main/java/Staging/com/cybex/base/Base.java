@@ -54,6 +54,12 @@ public class Base {
 		
 		System.Out.Prtinln("This new line also added this need to be added ");
 		
+		
+		if (this.equal =="test")
+		{
+			System.out.println("This is correct")
+		}
+		
 			
 	
 		
