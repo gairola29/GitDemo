@@ -138,7 +138,20 @@ public void Logout_from_The_Application() throws InterruptedException
     }
 }
 
-
+@Test(priority=3,enabled = false)
+public void Logout_from_The_web() throws InterruptedException
+{
+	Extentlog = extent.startTest("Logout_from_The_Application");
+	CybexLoginPage PLD=new CybexLoginPage();
+	Login_To_Application();
+	Extentlog.log(LogStatus.INFO, "Clicking on Logout Button");
+	log.info("Clicking on logout button");
+	PLD.Clicking_LogoutBtn();
+	Extentlog.log(LogStatus.INFO, "Logout from the application");
+	log.info("Logout from the application");
+	Extentlog.log(LogStatus.PASS, "User logout from the application");
+    }
+}
 
 /////////////////////////Check posting of question without filtering enabled ///////////////////////////
 		
